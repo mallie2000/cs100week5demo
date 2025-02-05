@@ -8,6 +8,7 @@ void greeting(string name){
 }
 
 int main() {
-    cout <<  greeting()<< endl;
+    string name = "John";
+    cout <<  greeting(name)<< endl;
     return 0;
 }
