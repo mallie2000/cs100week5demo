@@ -1,7 +1,11 @@
 #include <iostream>
 using namespace std;
 
+void greeting(string name){
+    string msg = "Hello " + name;
+    return msg;
+}
 int main() {
-    cout << "Hello World!" << endl;
+    cout << greeting << endl;
     return 0;
 }
