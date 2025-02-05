@@ -1,7 +1,14 @@
 
 #include <iostream>
+#include <string>
 using namespace std;
+
+string greeting(string name){
+    string msg = "Hello " + name;
+    return msg;
+}
 int main() {
-    cout << "Hello World!" << endl;
+    string name = "John";
+    cout << greeting(name) << endl;
     return 0;
 }
